@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="<%= url("/sheet.css") %>">
+  </head>
+  <body>
+    <div class="container">
+      <img class="img-cls" src="<%= url("/images/#{@player_choice}") %>" alt="">
+      <h2><%= @player %></h2>
+    </div>
+    <h1><%= @end_message %></h1>
+    <div id="npc" class="container">
+      <img class="img-cls" src="<%= url("/images/#{@opponent_choice}") %>" alt="">
+      <h2>Opponent</h2>
+    </div>
+  </body>
+</html>
